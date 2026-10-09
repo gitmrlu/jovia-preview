@@ -98,7 +98,7 @@ figure{margin:0}
 .hero__points li{display:flex;align-items:center;gap:8px}
 .hero__points svg{width:18px;height:18px;fill:none;stroke:var(--green-3);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 .hero__media{position:relative}
-.hero__frame{position:relative;aspect-ratio:4/5;border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);background:var(--sand) url(/assets/img/hero-poster.jpg) center/cover}
+.hero__frame{position:relative;aspect-ratio:4/5;border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);background:var(--sand) url(/jovia-preview/assets/img/hero-poster.jpg) center/cover}
 .hero__frame::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(30,68,52,.35));pointer-events:none}
 .hero__video{width:100%;height:100%;object-fit:cover;transform:scale(1.04)}
 .video-toggle{position:absolute;right:16px;bottom:16px;z-index:2;width:40px;height:40px;border-radius:50%;border:0;background:rgba(251,248,242,.85);backdrop-filter:blur(6px);display:grid;place-items:center;cursor:pointer;transition:transform .3s var(--ease)}
